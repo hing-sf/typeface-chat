@@ -1,0 +1,23 @@
+.recipients {
+	background-color: #fff;
+	padding: 1rem;
+	text-align: left;
+}
+
+.recipient {
+	margin: 1rem 0;
+	flex-grow: 1;
+	display: flex;
+	border-bottom: solid 1px #000;
+}
+
+.recipient:first-child,
+.recipient:last-child {
+	margin: 0;
+}
+
+.recipient button {
+	width: 100%;
+	background-color: transparent;
+	color: #000;
+}
