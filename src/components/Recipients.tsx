@@ -13,6 +13,7 @@ const Recipients: FC<RecipientProps> = memo(({ recipients, handleSelectRecipient
 
 	return (
 		<div className='recipients'>
+			<h3>Lis of Chats</h3>
 			{recipients.map((recipient, idx) => {
 				return (
 					<div key={recipient.userId + idx.toString()} className='recipient'>

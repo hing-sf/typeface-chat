@@ -13,7 +13,7 @@ const Messages: React.FC<MessagesProps> = memo(({ activeChat, handleDelete }) =>
 
 	return (
 		<div className='messages'>
-			<h3>{name}</h3>
+			<h3>{name} Messages</h3>
 			{messages.map(({ sentTime, message }, idx) => {
 				// Format the sentTime
 				const formattedTime = new Date(sentTime).toLocaleString();
